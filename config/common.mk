@@ -90,7 +90,7 @@ PRODUCT_COPY_FILES += \
 ifeq ($(WITH_TWRP),true)
 include vendor/havoc/config/twrp.mk
 endif
-=======
+
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := false
 ifneq ($(TARGET_DISABLE_ALTERNATIVE_FACE_UNLOCK), true)
